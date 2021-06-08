@@ -1,9 +1,9 @@
 +++
-title = "Amateur Guitar"
+title = "Fun Notation"
 sort_by = "weight"
 +++
 
-# Amateur Guitar
+# Fun Notation
 
 ** Under Construction **
 

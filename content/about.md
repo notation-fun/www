@@ -4,6 +4,6 @@ description = "About"
 weight = 3
 +++
 
-# Amateur Guitar
+# Fun Notation
 
 ** Under Construction **
