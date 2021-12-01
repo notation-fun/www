@@ -9,12 +9,14 @@ build_search_index = false
 
 theme = "juice"
 
+default_language = "en"
+
 [languages.en]
 [languages.en.translations]
 title = "Fun Notation"
 slogan = "Musical Notation in the Fun Way"
-slogan2 = "Understand music better with colorful chords"
-explore_more = "Start Now ⇩"
+slogan2 = "A modern visual music notation, colorful and dynamic"
+explore_more = "Explore More ⇩"
 footer = "Fun Notation © 2021"
 
 [markdown]
@@ -26,7 +28,7 @@ highlight_code = false
 # Put all your custom variables here
 default_language = "en"
 juice_logo_name = "Fun Notation"
-juice_logo_path = "juice.svg"
-juice_hero_path = "juice.svg"
+juice_logo_path = "6_minor_2.svg"
+juice_hero_path = "1_major.svg"
 juice_hero_width = "40%"
-repository_url = "https://github.com/notation-fun/feedbacks"
+repository_url = "https://github.com/notation-fun/notation"
