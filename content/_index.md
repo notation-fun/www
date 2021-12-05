@@ -37,7 +37,7 @@ Features:
 [Try in browser](https://www.amateurguitar.com/songs/scarborough-fair/)
 Note that the web version is only working in desktop browser, the touch input is not working on mobile browsers yet.
 
-Desktop versions will be released later.
+[Desktop versions](https://github.com/notation-fun/notation/releases) can be downloaded from releases.
 
 Get [source code](https://github.com/notation-fun/notation) to run on your machine.
 
