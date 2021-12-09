@@ -33,6 +33,7 @@ juice_logo_path = "6_minor_2.svg"
 juice_hero_path = "1_major.svg"
 juice_hero_width = "40%"
 repository_url = "https://github.com/notation-fun/notation"
+notation_url = "/notation"
 juice_extra_menu = [
     { title = "News", link = "https://notation.substack.com"}
 ]
