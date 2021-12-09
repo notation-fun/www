@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+cd `dirname $0`
+cd ../static/notation
+rm -rf assets
+mkdir assets
+
+cp -v ~/win/projects/notation-fun/notation/public/notation/* .
+cp -vr ~/win/projects/notation-fun/notation/apps/notation_viewer/assets/fonts assets/
+cp -vr ~/win/projects/notation-fun/notation/apps/notation_viewer/assets/png assets/
+cp -vr ~/win/projects/notation-fun/notation/apps/notation_viewer/assets/songs assets/
