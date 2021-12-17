@@ -1,9 +1,11 @@
 +++
-title = "Web Demo"
-description = "Guitar Tab: Scarborough Fair - Simon & Garfunkel"
+title = "Demos"
+description = "Demos"
 weight = 1
 +++
 
-# Tab
+# Guitar Tab
+
+## Scarborough Fair - Simon & Garfunkel
 
 {{ notation(class="notation", tab="songs/misc/scarborough_fair.ron") }}
