@@ -30,7 +30,7 @@ Features:
 - A/B repeat for selected bars
 
 
-![Notation Viewer](/images/notation_viewer.gif?raw=true)
+![Notation Viewer](/images/notation_viewer.gif)
 
 [Watch on Youtube](https://youtu.be/vxXcNSpCZ5Y)
 
