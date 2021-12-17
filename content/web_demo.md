@@ -1,6 +1,6 @@
 +++
-title = "Guitar Tab"
-description = "Scarborough Fair - Simon & Garfunkel"
+title = "Web Demo"
+description = "Guitar Tab: Scarborough Fair - Simon & Garfunkel"
 weight = 1
 +++
 

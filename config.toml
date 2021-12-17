@@ -35,6 +35,7 @@ juice_hero_width = "40%"
 repository_url = "https://github.com/notation-fun/notation"
 notation_url = "/notation"
 juice_extra_menu = [
+    { title = "Amateur Guitar", link = "https://www.amateurguitar.com"},
     { title = "News", link = "https://notation.substack.com"}
 ]
 
