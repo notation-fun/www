@@ -12,7 +12,7 @@ if [[ "$BRANCH" =~ ^release-wasm$ ]] ; then
     cp -v ~/win/projects/notation-fun/notation/public/notation/* .
     cp -vr ~/win/projects/notation-fun/notation/apps/notation_viewer/assets/fonts assets/
     cp -vr ~/win/projects/notation-fun/notation/apps/notation_viewer/assets/png assets/
-    cp -vr ~/win/projects/notation-fun/notation/apps/notation_viewer/assets/songs assets/
+    cp -vr ~/win/projects/notation-fun/notation/apps/notation_viewer/assets/tabs assets/
 else
     echo "Wrong Branch: expected: release-wasm actual: $BRANCH"
 fi

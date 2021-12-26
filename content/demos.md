@@ -8,4 +8,4 @@ weight = 1
 
 ## Scarborough Fair - Simon & Garfunkel
 
-{{ notation(class="notation", tab="songs/misc/scarborough_fair.ron") }}
+{{ notation(class="notation", tab="tabs/scarborough_fair.ron") }}
