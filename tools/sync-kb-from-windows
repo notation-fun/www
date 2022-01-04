@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+cd ~/win/projects/notation-fun/notation
+BRANCH=`git rev-parse --abbrev-ref HEAD`
+
+if [[ "$BRANCH" =~ ^release-wasm$ ]] ; then
+    cd `dirname $0`
+    cd ../static/notation_kb
+    rm -rf assets
+    mkdir assets
+    git checkout -- assets/tabs
+
+    cp -v ~/win/projects/notation-fun/notation/public/notation_kb/* .
+    cp -vr ~/win/projects/notation-fun/notation/apps/notation_kb/assets/fonts assets/
+    cp -vr ~/win/projects/notation-fun/notation/apps/notation_kb/assets/png assets/
+    cp -vr ~/win/projects/notation-fun/notation/apps/notation_kb/assets/kb assets/
+else
+    echo "Wrong Branch: expected: release-wasm actual: $BRANCH"
+fi
+
+
