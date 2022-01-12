@@ -40,4 +40,5 @@ juice_extra_menu = [
     { title = "Amateur Guitar", link = "https://www.amateurguitar.com"},
     { title = "News", link = "https://notation.substack.com"}
 ]
+tab_card_text = "Click to open the tab"
 
