@@ -1,7 +1,10 @@
 # Keyboard Shortcuts - GUI
 - *F1, H* toggle help dialog
-- *Tab* toggle control gui
+- *F2* toggle guitar view (left)
+- *F3* toggle chords view (top)
+- *F4* toggle mini map (bottom)
 - *F5, R* reload current tab
+- *F10, Backslash* toggle control gui (right)
 
 # Keyboard Shortcuts - Move Around
 - *Home* jump to the first bar of current section
@@ -29,7 +32,8 @@
 - *E* set repeat selection to current section
 
 # Keyboard Shortcuts - Others
-- *Backspace* toggle layout between grid mode and line mode
+- *Minus* toggle layout between grid mode and line mode
 - *G* toggle whether showing syllable in guitar fretboard
 - *M* toggle whether showing syllable in melody lines
+- *P* toggle whether showing syllable as pitch
 - *F* toggle whether always show fret number in guitar tab

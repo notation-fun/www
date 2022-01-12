@@ -3,7 +3,7 @@
 cd ~/win/projects/notation-fun/notation
 BRANCH=`git rev-parse --abbrev-ref HEAD`
 
-if [[ "$BRANCH" =~ ^release-wasm$ ]] ; then
+if [[ "$BRANCH" =~ ^main$ ]] ; then
     cd `dirname $0`
     cd ../static/notation
     rm -rf assets
@@ -15,7 +15,7 @@ if [[ "$BRANCH" =~ ^release-wasm$ ]] ; then
     cp -vr ~/win/projects/notation-fun/notation/apps/notation_viewer/assets/tabs assets/
     cp -vr ~/win/projects/notation-fun/notation/apps/notation_viewer/assets/kb assets/
 else
-    echo "Wrong Branch: expected: release-wasm actual: $BRANCH"
+    echo "Wrong Branch: expected: main actual: $BRANCH"
 fi
 
 
