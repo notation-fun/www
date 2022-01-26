@@ -8,12 +8,12 @@ if [[ "$BRANCH" =~ ^main$ ]] ; then
     cd ../static/notation_kb
     rm -rf assets
     mkdir assets
-    git checkout -- assets/tabs
 
     cp -v ~/win/projects/notation-fun/notation/public/notation_kb/* .
     cp -vr ~/win/projects/notation-fun/notation/apps/notation_kb/assets/fonts assets/
     cp -vr ~/win/projects/notation-fun/notation/apps/notation_kb/assets/png assets/
     cp -vr ~/win/projects/notation-fun/notation/apps/notation_kb/assets/kb assets/
+    cp -vr ~/win/projects/notation-fun/notation/apps/notation_kb/assets/tabs assets/
 else
     echo "Wrong Branch: expected: main actual: $BRANCH"
 fi
