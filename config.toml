@@ -33,12 +33,12 @@ juice_logo_path = "6_minor_2.svg"
 juice_hero_path = "1_major.svg"
 juice_hero_width = "40%"
 repository_url = "https://github.com/notation-fun/notation"
-notation_url = "/notation"
+notation_url = "/notation/viewer.html?lang=en-US&tab="
+notation_kb_url = "/notation_kb/kb.html?lang=en-US&tab="
 juice_extra_menu = [
-    { title = "Guitar Tab", link = "/notation/viewer.html?tabs/scarborough_fair.ron"},
-    { title = "Knowledge Base", link = "/notation_kb/kb.html"},
+    { title = "Guitar Tab", link = "/notation/viewer.html?lang=en-US&tab=tabs/scarborough_fair.ron"},
+    { title = "Knowledge Base", link = "/notation_kb/kb.html?lang=en-US"},
     { title = "Amateur Guitar", link = "https://www.amateurguitar.com"},
     { title = "News", link = "https://notation.substack.com"}
 ]
 tab_card_text = "Click to open the tab"
-
