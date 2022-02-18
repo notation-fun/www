@@ -3,7 +3,7 @@
 cd ~/win/projects/notation-fun/notation
 BRANCH=`git rev-parse --abbrev-ref HEAD`
 
-if [[ "$BRANCH" =~ ^main$ ]] ; then
+if [[ "$BRANCH" =~ ^feature-touch_wasm_mobile$ ]] ; then
     cd `dirname $0`
     cd ../static/notation_kb
     rm -rf assets
@@ -15,7 +15,7 @@ if [[ "$BRANCH" =~ ^main$ ]] ; then
     cp -vr ~/win/projects/notation-fun/notation/apps/notation_kb/assets/kb assets/
     cp -vr ~/win/projects/notation-fun/notation/apps/notation_kb/assets/tabs assets/
 else
-    echo "Wrong Branch: expected: main actual: $BRANCH"
+    echo "Wrong Branch: expected: feature-touch_wasm_mobile actual: $BRANCH"
 fi
 
 
