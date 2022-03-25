@@ -34,7 +34,7 @@ Features:
 
 [Watch on Youtube](https://youtu.be/vxXcNSpCZ5Y)
 
-[Try in browser](https://www.amateurguitar.com/songs/scarborough-fair/)
+[Try in browser](https://www.notation.fun/notation/viewer?lang=en-US&tab=tabs/scarborough_fair.ron)
 Note that the web version is only working in desktop browser, the touch input is not working on mobile browsers yet.
 
 [Desktop versions](https://github.com/notation-fun/notation/releases) can be downloaded from releases.
